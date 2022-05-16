@@ -1,9 +1,9 @@
 %global _empty_manifest_terminate_build 0
 Name:		python-toolz
 Version:	0.11.1
-Release:	1
+Release:	2
 Summary:	List processing tools and functional utilities
-License:	BSD
+License:	BSD-3-Clause
 URL:		https://github.com/pytoolz/toolz/
 Source0:	https://files.pythonhosted.org/packages/d6/0d/fdad31347bf3d058002993a094da1ca95f0f3ef9beec08856d0fe4ad9766/toolz-0.11.1.tar.gz
 BuildArch:	noarch
@@ -70,5 +70,8 @@ mv %{buildroot}/doclist.lst .
 %{_docdir}/*
 
 %changelog
+* Wed May 11 2022 yangping <yangping69@h-partners> - 0.11.1-2
+- License compliance rectification
+
 * Tue May 25 2021 Python_Bot <Python_Bot@openeuler.org>
 - Package Spec generated
